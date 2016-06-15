@@ -28,3 +28,7 @@ redis_appendfsync: "everysec"
 
 # Add extra include files for local configuration/overrides.
 redis_includes: []
+
+# Yum repo settings
+redis_yum_repo: "epel"
+redis_yum_package: "redis"
